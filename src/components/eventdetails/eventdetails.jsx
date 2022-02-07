@@ -76,6 +76,9 @@ if(productId===id[2]){
         <button   onClick={() =>{user?loadCheckout(productdetails.prices.priceId):history.push('/login')}} >Book ticket</button>
         <br></br>
         <h1>Rules and Regulations</h1>
+
+    
+    
         <br></br>
 <div dangerouslySetInnerHTML={{__html:productdetails&& productdetails.stripe_metadata_rules}}></div>
     </div>
