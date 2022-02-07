@@ -1,0 +1,9 @@
+.spinner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  z-index: 30000000;
+  background-color: black;
+  align-items: center;
+}

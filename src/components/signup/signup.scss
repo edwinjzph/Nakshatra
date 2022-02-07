@@ -1,0 +1,118 @@
+.Signup_box {
+  flex-direction: row;
+  flex-basis: 50%;
+  display: flex;
+  background-color: #000000;
+
+  height: 100vh;
+  width: 100%;
+}
+.flex_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 20;
+  margin: auto;
+  margin-top: 50px;
+  min-width: 500px;
+  padding: 50px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.flex_1 h5,
+button {
+  z-index: 200;
+}
+.signup h1 {
+  font-size: x-large !important;
+  margin-top: 20px;
+}
+.flex_1 h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 500;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.already_account {
+  z-index: 1;
+  font-size: small;
+  color: white;
+}
+.already_account span {
+  cursor: pointer;
+  color: #e50914;
+}
+.already_account span:hover {
+  text-decoration: underline;
+}
+.flex_1 button {
+  border: none;
+  background-color: #e50914;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: white;
+}
+.flex_1 button:hover {
+  box-shadow: 0 0 1rem 0 #e50914;
+}
+.flex_1 input {
+  padding: 12px;
+  font-size: small;
+
+  font-weight: 400;
+
+  border: none;
+  background-color: #333;
+  color: white;
+  z-index: 200;
+
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  overflow: hidden;
+}
+::placeholder {
+  color: #fff;
+}
+.flex_1 input:focus {
+  outline: none !important;
+  border: 1px solid #e50914;
+}
+.to_sign_up {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sign_in {
+  margin-top: 20px;
+  font-size: x-large !important;
+  margin-bottom: 0 !important;
+}
+.forgot_h5 {
+  color: #e50914;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.forgot_h5:hover {
+  text-decoration: underline;
+}
+.sign_redirect {
+  margin-top: 20px;
+}
+@media screen and (max-width: 960px) {
+  .flex_1 {
+    background-color: #00000000;
+    padding: 30px;
+    min-width: 300px;
+    width: max-content;
+  }
+}
